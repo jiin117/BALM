@@ -1,0 +1,16 @@
+# 로컬 Python 환경과 캐시
+.venv
+.venv-*
+__pycache__/
+*.py[cod]
+
+# 데이터·가중치 실체 및 서버별 심볼릭 링크
+/mvtec_ad_2
+/synthetic_dataset_flux_filter_dinov3
+/tipsv2-so400m14
+/backbone/*.pth
+/experiments/**/*.pkl
+
+# 추론 결과와 제출 파일
+/results/
+/result*.tar.gz
